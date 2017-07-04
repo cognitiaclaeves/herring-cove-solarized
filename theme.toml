@@ -1,14 +1,14 @@
-name = "Herring Cove"
-description = "Herring Cove is ported from the jekyll theme of the same name"
+name = "Herring Cove Solarized"
+description = ""
 license = "MIT"
 tags = ["blog", "company"]
 min_version = 0.20
 
 [author]
-    name = "spf13"
-    homepage = "http://spf13.com"
+    name = "cognitiaclaeves"
+    homepage = "http://zen-techie.com/"
 
 # If Porting existing theme
-[original]
-    author =  "arnp"
-    repo = "http://www.github.com/arnp/herring-cove"
+#[original]
+#    author =  "arnp"
+#    repo = "http://www.github.com/arnp/herring-cove"

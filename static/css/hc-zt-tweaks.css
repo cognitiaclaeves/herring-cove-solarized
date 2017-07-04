@@ -1,0 +1,237 @@
+
+body
+{
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
+  color:#839496;
+  background-color:#fdf6e3;
+  width:100%;
+  border-top:none;
+}
+
+/* Could differentiate between visited links with the bottom border here */
+a, a:visited, a:active {
+        color: #2aa198;
+        border-color: #2aa198;
+}
+
+a:hover {
+        background-color: #eee8d5;
+        border-color: #2aa198;
+        color: #2aa198;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
+  color:#cb4b16
+}
+
+h1
+{
+  font-weight:700;
+  color:#cb4b16
+}
+
+h2,h3
+{
+  font-weight:700
+}
+
+h1 a,h2 a,h3 a,h4 a
+{
+  color:#cb4b16
+}
+
+/* Not sure where this shows up: */
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover
+{
+  color:#29598c
+}
+
+p, li, time
+{
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
+  font-weight:400
+}
+
+.container a
+{
+  border-bottom:1px #2aa198 dotted;
+  text-decoration:none;
+}
+
+#sidebar-wrapper
+{
+  background:#fdf6e3;
+}
+
+.brand
+{
+  font-weight:800;
+  color: #839496;
+}
+
+.brand:hover
+{
+  color: #cb4b16;
+}
+
+blockquote
+{
+  border: none;
+  /*
+  border-left:2px solid #d90006;
+  border-right:2px solid #d90006;
+  */
+}
+
+ul,ol
+{
+  font-weight:lighter
+}
+
+div.highlight, div.highlight pre{
+  font-family: "Courier New", Courier, monospace;
+  font-size: 95%;
+  font-weight: 300;
+  overflow-x: auto;
+  overflow: auto;
+  word-break: no;
+  word-wrap: unset;
+  white-space: pre;
+  /* color: #0; /* #839496; */ */
+}
+
+pre,code,blockquote
+{
+  font-size: 100%;
+  font-weight: 400;
+  background-color: #eee8d5;
+}
+
+blockquote
+{
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  background-color: #eee8d5;
+  border-left: 2px dashed #839496;
+}
+
+pre p,code p,blockquote p
+{
+  font-size: 100%;
+  font-weight: 400;
+}
+
+pre a:hover, code a:hover, blockquote a:hover
+{
+  background-color: #fdf6e3;
+}
+
+code
+{
+  color: #cb4b16;
+}
+
+.credit
+{
+  color: #839496;
+}
+
+div.container hr
+{
+  border-top: 2px solid #eee8d5
+}
+
+.article-title
+{
+  color: #cb4b16;
+}
+
+.meta
+{
+  text-shadow:1px 1px #fff;
+  /* color: #839496; */
+  color: #b6b6b6;
+}
+
+#article
+{
+  background-color:#fdf6e3;
+  box-shadow:1px 1px 0 1px #eee8d5;
+}
+
+time
+{
+  color: #839496;
+  font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
+  font-weight: 400;
+  text-shadow:1px 1px #fff;
+  font-size: smaller;
+}
+
+#article h1,#article h2,#article h3
+{
+  color: #cb4b16
+}
+
+
+.post
+{
+  padding-bottom:30px;
+}
+
+/**
+ * Tags Metadata format below
+ * Inspired by: http://charliepark.org/ !!
+ */
+
+div.post_meta_wrapper {
+  /* float: left; */
+  border: 1px solid #C9C6C3;
+  border-width: 1px 0;
+  font-size: larger;
+  line-height: 2;
+  margin: 0 0 20px;
+  padding: 1px 0;
+  text-transform: uppercase;
+}
+
+.post_meta_wrapper time {
+  border-right: 1px solid #bbb;
+  float: left;
+  font-weight: 400;
+  padding-top: 2px;
+  margin-bottom: 4px;
+  padding-right: 8px;
+  margin-right: 8px;
+}
+
+.post_meta_wrapper ul.tag_list {
+  font-weight: 400;
+  display: inline;
+  margin-left: 0;
+  padding: 0 0 0 0;
+}
+
+.post_meta_wrapper li.tag_list_item {
+  line-height: 1;
+  list-style: none;
+  margin: 0;
+  display: inline
+}
+
+.post_meta_wrapper a.tag_list_link {
+  font-variant: small-caps;
+  margin: 0;
+  padding: 0 6px 0 0;
+  text-transform: lowercase;
+}
+
+/**
+ * Tags Metadata format above
+ * Inspired by: http://charliepark.org/ !!
+ */
+
+

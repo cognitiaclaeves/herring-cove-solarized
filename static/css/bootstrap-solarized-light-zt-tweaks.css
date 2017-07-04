@@ -1,0 +1,54 @@
+
+.navbar-default {
+  border-color: #eee8d5;
+}
+
+/*
+ * .navbar-toggle .icon-bar + .icon-bar {
+ *  border-color: #fff;
+ *  }
+ */
+
+/* 3966c3967 */
+.navbar-default .navbar-toggle {
+  border-color: #2aa198;
+}
+
+/* 3970c3972,3973 */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+   background-color: #fdf6e3;
+ }
+
+/* 3973c3976,3977 */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #2aa198;
+}
+
+/* 
+   How to disable this one? 
+   # 3974a3979,3988
+*/
+.navbar-default .navbar-toggle .icon-bar:hover,
+.navbar-default .navbae-toggle .icon-bar:focus
+{
+  background-color: #2aa198;
+}
+
+/* 3977c3991 */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #eee8d5;
+}
+
+
+/* 
+Skipped 3768a3769
+# 3966c3967,3968
+# 3970c3972,3973
+# 3973c3976,3977
+# 3974a3979,3988
+# 3977c3991
+WhiteSpace 3978a3993
+Skipped 4226c4241,4242 
+*/

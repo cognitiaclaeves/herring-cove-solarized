@@ -8,7 +8,10 @@
   {{ .Hugo.Generator }}
   <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   <link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ .Site.BaseURL }}/css/bootstrap-solarized-light.css" rel="stylesheet">
+  <link href="{{ .Site.BaseURL }}/css/bootstrap-solarized-light-zt-tweaks.css" rel="stylesheet">
   <link href="{{ .Site.BaseURL }}/css/hc.css" rel="stylesheet">
+  <link href="{{ .Site.BaseURL }}/css/hc-zt-tweaks.css" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -48,7 +51,7 @@
        <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
 					<img src="{{ .Site.Params.ProfilePicture }}" />
-          <li class="sidebar-brand"><a href="{{ .Site.BaseURL }}/"><h1 class="brand">{{ .Site.Title }}</h1></a><h3>{{ .Site.Params.Description }}</h3></li>
+          <li class="sidebar-brand"><a href="{{ .Site.BaseURL }}/"><h1 class="brand">{{ .Site.Title }}</h1></a><!--<h3>{{ .Site.Params.Description }}</h3>--></li>
           <hr />
 					{{range $key, $element := .Site.Params.links}}
 						<li><a href="{{ $baseUrl }}{{ $element }}">{{title $key }} </a></li>
@@ -66,4 +69,4 @@
 
 
      <div class="container">
-
+     <div class="sidebar-brand"><p>{{ .Site.Params.Description }}<br />{{ .Site.Params.Description2 }}</p></div>

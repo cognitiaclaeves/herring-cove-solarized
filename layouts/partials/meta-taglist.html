@@ -1,0 +1,12 @@
+
+    <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> {{ .Date.Format  "2006-01-02" }}</small></p> <hr/>
+    <div class="post_meta_wrapper">
+      <time id="time">&nbsp;<i class="fa fa-calendar-o"></i> {{ .Date.Format  "January 02, 2006" }}</time> <!-- <hr/> -->
+    	<ul class="tag_list">
+        {{ range .Params.tags }}
+    	    <li class="tag_list_item">
+    	      <a class="tag_list_link" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    	    </li>
+    	  {{ end }}
+    	</ul>
+    </div>
